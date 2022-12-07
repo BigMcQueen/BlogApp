@@ -1,5 +1,5 @@
 # BlogApp
-Python
-Flask
-Flask-SQLAlchemy
-HTML
+- Python
+- Flask
+- Flask-SQLAlchemy
+- HTML

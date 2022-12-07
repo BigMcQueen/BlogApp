@@ -1,2 +1,5 @@
 # BlogApp
-use flask
+Python
+Flask
+Flask-SQLAlchemy
+HTML

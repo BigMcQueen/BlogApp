@@ -49,11 +49,8 @@ def update(id):
     if request.method == "GET":
         return render_template("update.html", post=post)
     else:
-        title = request.form.get("title")
-        body = request.form.get("body")
+        post.title = request.form.get("title")
+        post.body = request.form.get("body")
 
-        post = Post(title=title, body=body)
-
-        db.session.add(post)
         db.session.commit()
         return redirect("/")
